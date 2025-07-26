@@ -18,7 +18,7 @@ spec:
         - name: my-registry-key
       containers:
         - name: $APP_NAME
-          image: fsiegrist/fesi-repo:devops-bootcamp-java-maven-app-${IMAGE_TAG}
+          image: elprince99/demo-app-repo:java-maven-app-${IMAGE_TAG}
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
